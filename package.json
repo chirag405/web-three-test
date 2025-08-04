@@ -1,0 +1,48 @@
+{
+  "name": "webxr-ui-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "pwa:build": "next build && next export",
+    "pwa:analyze": "next build && npx @next/bundle-analyzer"
+  },
+  "keywords": [
+    "pwa",
+    "webxr",
+    "threejs",
+    "react",
+    "nextjs",
+    "vr",
+    "ar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A Progressive Web App for WebXR UI components with Three.js",
+  "dependencies": {
+    "@react-three/drei": "^10.6.1",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/xr": "^6.6.20",
+    "@types/three": "^0.178.1",
+    "next": "^15.4.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.178.0",
+    "webxr-polyfill": "^2.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.5",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}
