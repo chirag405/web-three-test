@@ -23,19 +23,19 @@ export function ManualInstall() {
             </p>
             <ul className="list-disc list-inside ml-2">
               <li>Look for 📱 icon in address bar</li>
-              <li>Or click ⋮ menu → "Install app"</li>
+              <li>Or click ⋮ menu → &ldquo;Install app&rdquo;</li>
             </ul>
             <p>
               <strong>Mobile Chrome:</strong>
             </p>
             <ul className="list-disc list-inside ml-2">
-              <li>Tap ⋮ menu → "Add to Home screen"</li>
+              <li>Tap ⋮ menu → &ldquo;Add to Home screen&rdquo;</li>
             </ul>
             <p>
               <strong>Safari (iOS):</strong>
             </p>
             <ul className="list-disc list-inside ml-2">
-              <li>Tap share button → "Add to Home Screen"</li>
+              <li>Tap share button → &ldquo;Add to Home Screen&rdquo;</li>
             </ul>
           </div>
           <button
