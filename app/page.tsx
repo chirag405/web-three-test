@@ -15,7 +15,7 @@ export default function Home() {
     width: 2,
     height: 1.5,
     color: "#87CEEB",
-    text: "2D Card",
+    text: "2DD Card",
   };
 
   const wireframeRoomProps: WireframeRoomProps = {
