@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { PWAInstall } from "../components/PWAInstall";
-import { PWAStatus } from "../components/PWAStatus";
-import { TestPWA } from "../components/TestPWA";
-import { ManualInstall } from "../components/ManualInstall";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -55,13 +51,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-tap-highlight" content="no" />
       </head>
-      <body className={inter.className}>
-        {children}
-        <TestPWA />
-        <PWAInstall />
-        <PWAStatus />
-        <ManualInstall />
-      </body>
+      <body className={inter.className}></body>
     </html>
   );
 }
